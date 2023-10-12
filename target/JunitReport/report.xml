@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="5.031" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Accessing a Product via Category and Search" name="Access a product after applying multiple filters - Example #1.1" time="4.893">
+<failure/>
+<system-out><![CDATA[
+Given User lauches Ebay application.........................................passed
+When User Clicks on "Shop by category" dropdown.............................undefined
+And Select "Cell Phones & Accessories" under "Electronics" section..........skipped
+And User clicks on "Cell Phones & Smartphones" in the left-hand navigation section.skipped
+And User clicks on "All Filters"............................................skipped
+And User add the Multiple Filter Type with Filter Value.....................skipped
+Then Verify that user should see Condition:New;Price:$200-$400;Item Location:US Only are applied.skipped
+]]></system-out>
+</testcase>
+</testsuite>
