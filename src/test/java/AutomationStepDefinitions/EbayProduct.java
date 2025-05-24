@@ -21,11 +21,11 @@ public class EbayProduct {
 	static String selectLeftPanelOptionXpath="//a[contains(text(),'%option')]";
 	static LinkedHashMap<String,String> actMaps=new LinkedHashMap<String,String>();
 	
-	@And("User clicks on {string}")
-	@When("User Clicks on {string} dropdown")
-	public void clicksOnButton(String btnName) throws Exception {
-		CommonAction.javaScriptClick(CommonAction.getWebElement("xpath",buttonXpath.replace("%btnName",btnName)));
-	}
+//	@And("User clicks on {string}")
+//	@When("User Clicks on {string} dropdown")
+//	public void clicksOnButton(String btnName) throws Exception {
+//		CommonAction.javaScriptClick(CommonAction.getWebElement("xpath",buttonXpath.replace("%btnName",btnName)));
+//	}
 	
 	@And("Select {string} under {string} category")
 	public void selectOptionsUnderSection(String option, String category) throws Exception {
